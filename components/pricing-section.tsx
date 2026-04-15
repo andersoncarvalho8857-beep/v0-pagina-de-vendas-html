@@ -65,10 +65,7 @@ function StarterKit({ onOpenModal }: { onOpenModal: () => void }) {
         <h3 className="text-xl md:text-3xl font-light text-[#0F172A] italic uppercase transform -rotate-2">
           KIT INICIANTE
         </h3>
-        <p className="text-[#FF0000] line-through text-xs md:text-sm font-light mt-1">
-          De R$ 79,90
-        </p>
-        <div className="flex items-center justify-center gap-1">
+        <div className="flex items-center justify-center gap-1 mt-2">
           <span className="text-lg md:text-2xl font-light text-slate-400">R$</span>
           <span className="text-4xl md:text-6xl font-light text-[#0F172A] tracking-tighter">10</span>
         </div>
