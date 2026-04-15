@@ -64,10 +64,10 @@ export function DiscountModal({ isOpen, onClose }: DiscountModalProps) {
           {/* Product Image */}
           <div className="relative inline-block mb-[18px]">
             <Image
-              src="/images/popup-bau.webp"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/POUPUP%20BAU%20P.-Ac1LmniafoZXIKM4rklHbpbwUidxsl.webp"
               alt="Baú de Bônus"
-              width={160}
-              height={120}
+              width={200}
+              height={160}
               className="object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.2)]"
             />
             <div className="absolute -bottom-1.5 -right-2 bg-[#FF0000] text-white text-[9px] font-black py-0.5 px-2.5 rounded transform -rotate-6 shadow-[0_2px_6px_rgba(0,0,0,0.3)] uppercase tracking-wider border border-white">
