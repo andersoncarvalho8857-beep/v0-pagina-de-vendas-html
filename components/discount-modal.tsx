@@ -84,7 +84,7 @@ export function DiscountModal({ isOpen, onClose }: DiscountModalProps) {
 
           {/* Supporting Text */}
           <p className="text-slate-500 text-[15px] leading-relaxed mb-[18px] font-medium">
-            Você mostrou interesse no Papercraft, então queremos te ajudar. Leve o{' '}
+            Você mostrou interesse no Moldcraft, então queremos te ajudar. Leve o{' '}
             <strong className="text-[#0F172A] font-bold">PACOTE COMPLETO (Mestre)</strong> com um preço exclusivo agora.
           </p>
 
