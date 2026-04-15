@@ -76,16 +76,16 @@ function StarterKit({ onOpenModal }: { onOpenModal: () => void }) {
 
       {/* Compact Items */}
       <div className="mb-4 md:mb-8 flex-grow">
-        <div className="flex items-center gap-2 text-sm text-slate-700 mb-2">
-          <Check className="w-4 h-4 text-green-500 flex-shrink-0" />
+        <div className="flex items-center gap-2 text-base md:text-lg text-slate-700 mb-2">
+          <Check className="w-5 h-5 text-green-500 flex-shrink-0" />
           <span>1200 Moldes</span>
         </div>
-        <div className="flex items-center gap-2 text-sm text-slate-700 mb-2">
-          <Check className="w-4 h-4 text-green-500 flex-shrink-0" />
+        <div className="flex items-center gap-2 text-base md:text-lg text-slate-700 mb-2">
+          <Check className="w-5 h-5 text-green-500 flex-shrink-0" />
           <span>Acesso Vitalício</span>
         </div>
-        <div className="flex items-center gap-2 text-sm text-red-400 opacity-60">
-          <X className="w-4 h-4 flex-shrink-0" />
+        <div className="flex items-center gap-2 text-base md:text-lg text-red-400 opacity-60">
+          <X className="w-5 h-5 flex-shrink-0" />
           <span className="line-through">Sem bônus extras</span>
         </div>
       </div>
@@ -93,7 +93,7 @@ function StarterKit({ onOpenModal }: { onOpenModal: () => void }) {
       {/* CTA Button */}
       <a
         href="https://pay.wiapy.com/2sKPynTSrw"
-        className="block w-full py-3 md:py-4 rounded-lg md:rounded-xl bg-[#0F172A] text-white text-sm md:text-xl font-normal text-center uppercase tracking-wider hover:bg-slate-900 transition-colors shadow-md font-marker"
+        className="block w-full py-4 md:py-5 rounded-lg md:rounded-xl bg-[#0F172A] text-white text-lg md:text-2xl font-normal text-center uppercase tracking-wider hover:bg-slate-900 transition-colors shadow-md font-marker"
       >
         QUERO O BÁSICO
       </a>
@@ -134,27 +134,27 @@ function MasterKit() {
 
       {/* Compact Items */}
       <div className="mb-3 md:mb-6">
-        <div className="flex items-center gap-2 text-sm text-slate-700 mb-1.5">
-          <Check className="w-4 h-4 text-green-500 flex-shrink-0" strokeWidth={3} />
+        <div className="flex items-center gap-2 text-base md:text-lg text-slate-700 mb-2">
+          <Check className="w-5 h-5 text-green-500 flex-shrink-0" strokeWidth={3} />
           <span className="font-semibold">+3500 Moldes</span>
         </div>
-        <div className="flex items-center gap-2 text-sm text-slate-700 mb-1.5">
-          <Check className="w-4 h-4 text-green-500 flex-shrink-0" strokeWidth={3} />
+        <div className="flex items-center gap-2 text-base md:text-lg text-slate-700 mb-2">
+          <Check className="w-5 h-5 text-green-500 flex-shrink-0" strokeWidth={3} />
           <span>Acesso Vitalício</span>
         </div>
-        <div className="flex items-center gap-2 text-sm text-slate-700">
-          <span className="text-base">🎁</span>
+        <div className="flex items-center gap-2 text-base md:text-lg text-slate-700">
+          <span className="text-lg">🎁</span>
           <span className="font-semibold text-[#0188FA]">+4 Bônus Exclusivos</span>
         </div>
       </div>
 
       {/* Categories Grid - Compact */}
       <div className="mb-4 md:mb-8 flex-grow">
-        <p className="text-[10px] md:text-xs text-slate-500 font-semibold mb-2">Tudo isso e muito mais:</p>
-        <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 text-[11px] md:text-xs text-slate-600">
+        <p className="text-xs md:text-sm text-slate-500 font-semibold mb-2">Tudo isso e muito mais:</p>
+        <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-sm md:text-base text-slate-600">
           {['Moldes Gigantes (3D)', 'Alfabeto Lowpoly', 'Castelos', 'Coisas Fofas', 'Dinossauros', 'Dragões', 'Espaço – Universo', 'Esportes', 'Geek', 'Mitologia', 'Músicos'].map((cat) => (
-            <div key={cat} className="flex items-center gap-1">
-              <Check className="w-3 h-3 text-green-500 flex-shrink-0" />
+            <div key={cat} className="flex items-center gap-1.5">
+              <Check className="w-4 h-4 text-green-500 flex-shrink-0" />
               <span className="truncate">{cat}</span>
             </div>
           ))}
@@ -164,7 +164,7 @@ function MasterKit() {
       {/* CTA Button */}
       <a
         href="https://pay.wiapy.com/zkwASbzqaq"
-        className="block w-full py-3 md:py-5 rounded-lg md:rounded-2xl bg-[#1A93FA] text-white text-base md:text-2xl font-normal text-center uppercase tracking-wider hover:bg-blue-600 transition-all shadow-[0_4px_0_#B2DBFD] md:shadow-[0_6px_0_#B2DBFD] hover:shadow-[0_2px_0_#B2DBFD] hover:translate-y-[2px] border-2 border-black font-marker"
+        className="block w-full py-4 md:py-6 rounded-lg md:rounded-2xl bg-[#1A93FA] text-white text-xl md:text-3xl font-normal text-center uppercase tracking-wider hover:bg-blue-600 transition-all shadow-[0_4px_0_#B2DBFD] md:shadow-[0_6px_0_#B2DBFD] hover:shadow-[0_2px_0_#B2DBFD] hover:translate-y-[2px] border-2 border-black font-marker"
       >
         EU QUERO TUDO
       </a>

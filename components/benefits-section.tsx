@@ -180,10 +180,10 @@ export function BenefitsSection() {
 
                       {/* Content */}
                       <div className="text-center">
-                        <h3 className="font-marker text-lg md:text-xl text-[#0F172A] uppercase mb-2">
+                        <h3 className="font-marker text-xl md:text-2xl text-[#0F172A] uppercase mb-2">
                           {benefit.title}
                         </h3>
-                        <p className="text-xs md:text-sm text-[#475569] leading-relaxed">
+                        <p className="text-sm md:text-base text-[#475569] leading-relaxed">
                           {benefit.subtitle}
                         </p>
                       </div>

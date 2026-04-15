@@ -93,28 +93,28 @@ export function BonusSection() {
               
               {/* Content */}
               <div className="flex flex-col flex-grow text-left">
-                <h3 className="text-lg md:text-xl font-marker text-slate-900 leading-tight mb-2 tracking-wide uppercase">
+                <h3 className="text-xl md:text-2xl font-marker text-slate-900 leading-tight mb-2 tracking-wide uppercase">
                   {card.title}
                 </h3>
-                <p className="text-slate-600 text-xs md:text-sm font-medium leading-relaxed mb-4 max-w-[240px]">
+                <p className="text-slate-600 text-sm md:text-base font-medium leading-relaxed mb-4 max-w-[280px]">
                   {card.description}
                 </p>
                 
                 {/* Price and Badge */}
                 <div className="flex items-center justify-between mt-auto">
                   <div className="flex flex-col md:flex-row md:items-center md:gap-1">
-                    <span className="text-[10px] text-slate-400 font-bold uppercase tracking-tighter opacity-70 leading-tight">
+                    <span className="text-xs text-slate-400 font-bold uppercase tracking-tighter opacity-70 leading-tight">
                       Vendido por
                     </span>
-                    <span className="text-[10px] text-slate-400 font-bold uppercase tracking-tighter line-through opacity-70 leading-tight">
+                    <span className="text-xs text-slate-400 font-bold uppercase tracking-tighter line-through opacity-70 leading-tight">
                       R$ {card.price}
                     </span>
                   </div>
                   
                   {/* Bonus badge */}
                   <div className="text-[#22C55E] flex items-center justify-center gap-1.5 transform -rotate-1 font-bold">
-                    <span className="text-sm">✓</span>
-                    <span className="font-marker text-[10px] md:text-xs tracking-wider uppercase">
+                    <span className="text-base">✓</span>
+                    <span className="font-marker text-xs md:text-sm tracking-wider uppercase">
                       BÔNUS KIT<br />MESTRE
                     </span>
                   </div>
