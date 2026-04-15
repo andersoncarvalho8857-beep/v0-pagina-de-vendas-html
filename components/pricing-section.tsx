@@ -22,7 +22,7 @@ export function PricingSection({ onOpenModal }: PricingSectionProps) {
         </div>
 
         {/* Pricing Cards - Mobile Optimized */}
-        <div className="flex flex-col md:flex-row justify-center items-stretch gap-4 md:gap-8 max-w-5xl mx-auto">
+        <div className="flex flex-col-reverse md:flex-row justify-center items-stretch gap-4 md:gap-8 max-w-5xl mx-auto">
           {/* Kit Iniciante */}
           <StarterKit onOpenModal={onOpenModal} />
           
