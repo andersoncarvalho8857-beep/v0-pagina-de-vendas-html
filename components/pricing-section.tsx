@@ -76,12 +76,10 @@ function StarterKit({ onOpenModal }: { onOpenModal: () => void }) {
 
       {/* Compact Items */}
       <div className="mb-4 md:mb-8 flex-grow">
-        <div className="flex items-center gap-2 text-base md:text-lg text-slate-700 mb-2">
-          <Check className="w-5 h-5 text-green-500 flex-shrink-0" />
+        <div className="flex items-center gap-2 text-base md:text-lg text-slate-600 mb-2">
           <span>1200 Moldes</span>
         </div>
-        <div className="flex items-center gap-2 text-base md:text-lg text-slate-700 mb-2">
-          <Check className="w-5 h-5 text-green-500 flex-shrink-0" />
+        <div className="flex items-center gap-2 text-base md:text-lg text-slate-600 mb-2">
           <span>Acesso Vitalício</span>
         </div>
         <div className="flex items-center gap-2 text-base md:text-lg text-red-400 opacity-60">
