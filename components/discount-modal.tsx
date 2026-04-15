@@ -106,7 +106,7 @@ export function DiscountModal({ isOpen, onClose }: DiscountModalProps) {
 
           {/* Main CTA Button */}
           <a
-            href="https://pay.wiapy.com/zkwASbzqaq"
+            href="https://pay.wiapy.com/T197Y1gM8g"
             className="block w-full py-3 rounded-xl bg-[#1A93FA] text-white text-base font-bold text-center uppercase tracking-wide border-2 border-black shadow-[0_4px_0_#000] mb-3 font-marker hover:translate-y-0.5 hover:shadow-[0_2px_0_#000] transition-all"
           >
             QUERO APROVEITAR AGORA
