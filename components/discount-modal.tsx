@@ -79,12 +79,12 @@ export function DiscountModal({ isOpen, onClose }: DiscountModalProps) {
           <h2 className="font-marker text-2xl font-black text-[#0F172A] leading-tight mb-3.5 uppercase">
             ESPERE UM POUCO<br />
             VOCÊ ACABOU DE GANHAR<br />
-            UM <span className="text-[#1A93FA]">SUPER DESCONTO!</span>
+            UM <span className="text-[#FFD700] italic" style={{ textShadow: '1px 1px 0 #B8860B' }}>SUPER DESCONTO!</span>
           </h2>
 
           {/* Supporting Text */}
-          <p className="text-slate-500 text-[13px] leading-relaxed mb-[18px] font-medium">
-            Você mostrou interesse no Moldcraft, então queremos te ajudar. Leve o{' '}
+          <p className="text-slate-500 text-[15px] leading-relaxed mb-[18px] font-medium">
+            Você mostrou interesse no Papercraft, então queremos te ajudar. Leve o{' '}
             <strong className="text-[#0F172A] font-bold">PACOTE COMPLETO (Mestre)</strong> com um preço exclusivo agora.
           </p>
 
@@ -93,9 +93,9 @@ export function DiscountModal({ isOpen, onClose }: DiscountModalProps) {
             <div className="text-[9px] font-bold text-slate-400 tracking-widest uppercase mb-1.5">
               OFERTA RELÂMPAGO
             </div>
-            <div className="flex items-center justify-center gap-3.5 mb-2">
-              <span className="text-slate-400 line-through text-[13px] font-bold">R$ 24,90</span>
-              <span className="text-[#00C347] text-4xl font-black leading-none tracking-tight">R$ 17,90</span>
+            <div className="flex items-center justify-center gap-4 mb-2">
+              <span className="text-slate-400 line-through text-base font-bold">R$ 24,90</span>
+              <span className="text-[#00C347] text-5xl font-black leading-none tracking-tight">R$ 17,90</span>
             </div>
             <div className="inline-flex items-center gap-1.5 bg-red-50 text-[#FF0000] py-1 px-3 rounded-full text-[9px] font-bold uppercase tracking-wider">
               <Clock className="w-3 h-3" strokeWidth={2.5} />
@@ -105,16 +105,16 @@ export function DiscountModal({ isOpen, onClose }: DiscountModalProps) {
 
           {/* Main CTA Button */}
           <a
-            href="https://tilimcheckout.com/checkout?p=5e31893d70da05b1410de8f417f90ae1"
-            className="block w-full py-3.5 rounded-xl bg-[#1A93FA] text-white text-[17px] font-bold text-center uppercase tracking-wide border-2 border-black shadow-[0_4px_0_#000] mb-3.5 font-marker hover:translate-y-0.5 hover:shadow-[0_2px_0_#000] transition-all"
+            href="https://pay.wiapy.com/zkwASbzqaq"
+            className="block w-full py-4 rounded-xl bg-[#1A93FA] text-white text-lg font-bold text-center uppercase tracking-wide border-2 border-black shadow-[0_4px_0_#000] mb-4 font-marker hover:translate-y-0.5 hover:shadow-[0_2px_0_#000] transition-all"
           >
             QUERO APROVEITAR AGORA →
           </a>
 
           {/* Secondary Link */}
           <a
-            href="https://tilimcheckout.com/checkout?p=e0206cb22ff79fad792a8d5a63ca6f12"
-            className="text-[11px] text-slate-400 hover:text-slate-600 transition-colors font-medium"
+            href="https://pay.wiapy.com/2sKPynTSrw"
+            className="text-sm text-slate-400 hover:text-slate-600 transition-colors font-medium"
           >
             Não, obrigado. Quero só o básico por R$10,00
           </a>

@@ -91,12 +91,12 @@ function StarterKit({ onOpenModal }: { onOpenModal: () => void }) {
       </div>
 
       {/* CTA Button */}
-      <a
-        href="https://pay.wiapy.com/2sKPynTSrw"
-        className="block w-full py-4 md:py-5 rounded-lg md:rounded-xl bg-[#0F172A] text-white text-lg md:text-2xl font-normal text-center uppercase tracking-wider hover:bg-slate-900 transition-colors shadow-md font-marker"
+      <button
+        onClick={onOpenModal}
+        className="block w-full py-4 md:py-5 rounded-lg md:rounded-xl bg-[#0F172A] text-white text-lg md:text-2xl font-normal text-center uppercase tracking-wider hover:bg-slate-900 transition-colors shadow-md font-marker cursor-pointer"
       >
         QUERO O BÁSICO
-      </a>
+      </button>
     </div>
   )
 }
