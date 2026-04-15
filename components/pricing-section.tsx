@@ -91,9 +91,9 @@ function StarterKit({ onOpenModal }: { onOpenModal: () => void }) {
       {/* CTA Button */}
       <button
         onClick={onOpenModal}
-        className="block w-full py-4 md:py-5 rounded-lg md:rounded-xl bg-[#0F172A] text-white text-lg md:text-2xl font-normal text-center uppercase tracking-wider hover:bg-slate-900 transition-colors shadow-md font-marker cursor-pointer"
+        className="block w-full py-4 md:py-5 rounded-full bg-[#9CA3AF] text-white text-lg md:text-2xl font-normal text-center uppercase tracking-wider hover:bg-[#6B7280] transition-colors font-marker cursor-pointer"
       >
-        QUERO O BÁSICO
+        APENAS O BASICO
       </button>
     </div>
   )
